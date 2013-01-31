@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tabs demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+</head>
+<body>
+ 
+<div id="tabs">
+  <header>
+      <nav>
+        <ul>
+            <li><a href="#tab-1"><span>Новини</span></a></li>
+            <li><a href="#tab-2"><span>Спорт</span></a></li>
+            <li><a href="#tab-3"><span>Лайфстайл</span></a></li>
+            <li><a href="#tab-4"><span>Аз, репортерът</span></a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <div id="tab-1" class="vtabs">
+
+    <ul>
+        <li><a href="#" rel="#tab-11">"Гигантските лъжи" на Станишев </a></li>
+        <li><a href="#" rel="#tab-12">Убит треньор по скокове на батут</a></li>
+        <li><a href="#" rel="#tab-13">Нападението срещу Доган еквивалент на атаката срещу кортежа на Цветанов</a></li>
+        <li><a href="#" rel="#tab-14">Прекалена или напротив е оставка за шефа на НСО</a></li>
+        <li><a href="#" rel="#tab-15">Октай не може да е действал сам</a></li>
+
+    </ul>
+    <div id="tab-11" class="right">
+        <img src="http://images.btv.bg/2012/08/17/434262/340x222.jpg" />
+    </div>
+  </div>
+
+  <div id="tab-2"  class="vtabs">
+      <ul>
+        <li><a href="#" rel="#tab-11">Серина разгроми Кириленко за по-малко от час</a></li>
+        <li><a href="#" rel="#tab-12">Азаренка на 1/4-финал след лесна победа, Вожняцки изненадващо аут</a></li>
+        <li><a href="#" rel="#tab-13">Гришо аут и на двойки след драматична загуба </a></li>
+        <li><a href="#" rel="#tab-14">Реал (Мадрид) разпиля Валенсия, Роналдо и Ди Мария с по два гола </a></li>
+        <li><a href="#" rel="#tab-15">Фен с опасност за живота след бой между агитките на ЦСКА и Левски </a></li>
+    </ul>
+    <div id="Div1" class="right">
+        <img src="http://images.btv.bg/2013/01/21/487411/340x242.jpg" />
+    </div>
+  </div>
+
+  <div id="tab-3"  class="vtabs">
+      <ul>
+        <li><a href="#" rel="#tab-11">bEST 29!</a></li>
+        <li><a href="#" rel="#tab-12">Любимият ми TRACKTOP е най-новият</a></li>
+        <li><a href="#" rel="#tab-13">bTV Cinema ще излъчи 70-ите награди „Златен глобус” – на 27 януари от 23:00 часа  </a></li>
+        <li><a href="#" rel="#tab-14">Реал (Мадрид) разпиля Валенсия, Роналдо и Ди Мария с по два гола </a></li>
+        <li><a href="#" rel="#tab-15">Различните лица на Bebe </a></li>
+    </ul>
+    <div id="Div2" class="right">
+        <img src="http://images.btv.bg/2013/01/20/487210/340x213.jpg" />
+    </div>
+  </div>
+
+  <div id="tab-4"  class="vtabs">
+      <ul>
+        <li><a href="#" rel="#tab-11">Къпанките в Перущица</a></li>
+        <li><a href="#" rel="#tab-12">Януарска пролет</a></li>
+        <li><a href="#" rel="#tab-13">Небеса и стремежи</a></li>
+        <li><a href="#" rel="#tab-14">Паркиране по Хасковски</a></li>
+        <li><a href="#" rel="#tab-15">Да нахраним лебедите!</a></li>
+        <li><a href="#" rel="#tab-15">Хижа Здравец ...</a></li>
+        <li><a href="#" rel="#tab-15">Строителство на хотел в непосредствена близост до плаж</a></li>
+    </ul>
+    <div id="Div3" class="right">
+        <img src="http://images.btv.bg/usernews/2013/01/20/487358/340x255.JPG" />
+    </div>
+
+
+</div>
+     <div class="clear"></div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#tabs").tabs();
+    });
+</script>
+ 
+</body>
+</html>

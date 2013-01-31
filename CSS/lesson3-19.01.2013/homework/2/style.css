@@ -1,0 +1,61 @@
+div#main {
+	background: #dedede;
+	border: solod 1px gray;
+	border-radius: 10px;
+	width: 500px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.box {
+	border: solid 2px gray;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	background: white;
+}
+
+.box img {
+	margin: 10px;
+	float: left;
+	margin-right: 10px;
+	border: solid 1px gray;
+}
+
+.box p {
+	margin: 10px;
+}
+
+.text {
+
+}
+
+.btn {
+	display: inline-block;
+    margin-top: 15px;
+    padding: 0 10px 0 25px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.5em;
+    border-top: 2px solid #E38382;
+    border-right: 2px solid #650000;
+    border-bottom: 2px solid #650000;
+    border-left: 2px solid #9C2829;
+    background: #f00;
+    box-shadow: inset 15px 0 0 #8A0000;
+    vertical-align: bottom;
+}
+
+.btn:hover {
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+.buttons {
+	text-align: right;
+}

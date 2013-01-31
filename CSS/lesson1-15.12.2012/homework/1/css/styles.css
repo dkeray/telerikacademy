@@ -1,0 +1,54 @@
+﻿/* CSS Document */
+
+a 	  { text-decoration: none }
+
+body 
+{ 
+	font-family:Arial,Helvetica,sans-serif;
+	background: #595959;
+}
+
+
+
+h1   
+{ 
+	font-size: 30px;
+	color: gray;
+}
+
+table td
+{ 
+	font-size: 20px;
+	padding: 10px;
+	vertical-align: top;
+
+	
+}
+
+.col1
+{ 
+	font-style: italic;
+	color: #C0B9AD;
+	
+}
+
+.y
+{ 
+	color: #D2CB87;
+}
+
+.s
+{ 
+	color: red;
+}
+
+.s2
+{ 
+	color: #9CA9A6;
+}
+
+.s3
+{ 
+	color: #DF6929;
+}
+

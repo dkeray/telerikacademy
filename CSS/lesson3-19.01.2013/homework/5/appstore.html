@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF8" />
+    <title>Aple Store</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+    	function changeProperty(type) {
+    	    var Value = document.getElementById(type + "minprice").value;
+    	    spanminprice.innerHTML = Value;
+
+    	    //var redInHex = parseInt(redValue).toString(16).toUpperCase();
+    	    //if (redInHex.length == 1) {
+    	    //    redInHex = "0" + redInHex;
+    	    //}
+    	    //var greenInHex = parseInt(greenValue).toString(16).toUpperCase();
+    	    //if (greenInHex.length == 1) {
+    	    //    greenInHex = "0" + greenInHex;
+    	    //}
+    	    //var blueInHex = parseInt(blueValue).toString(16).toUpperCase();
+    	    //if (blueInHex.length == 1) {
+    	    //    blueInHex = "0" + blueInHex;
+    	    //}
+
+    	    //var newColor = "#" + redInHex + greenInHex + blueInHex;
+    	    //var colorDivElement = type + "ColorDiv";
+    	    //var colorDiv = document.getElementById(colorDivElement);
+
+    	    //colorDiv.style.backgroundColor = newColor;
+
+    	    //var colorValuesDiv = document.getElementById(type + "ColorValueDiv");
+    	    //colorValuesDiv.innerText = newColor;
+    	}
+</script>
+</head>
+<body>
+
+    <form method="post" name="appstore" action="selectedproduct.php">
+        <header>
+            <h1>WELCOME TO APLE STORE</h1>
+            <nav>
+            <ul>
+                <li><a href="apple.html">Apple</a></li>
+                <li><a href="toshiba.html">Toshiba</a></li>
+                <li><a href="lenovo.html">Lenovo</a></li>
+                <li><a href="dell.html">Dell</a></li>
+                <li><a href="asus.html">Asus</a></li>
+                <li><a href="hacer.html">Hacer</a></li>
+                <li><a href="hp.html">HP</a></li>
+            </ul>
+            </nav>
+        </header>
+        <hr />
+        <section id="products">
+
+            <div class="products">
+            <fieldset>
+                <legend>Aple Macbook Air</legend>
+                    <div class="leftcol">
+                        <img src="mcbookair.jpg" height="100" /><br />
+                        1100 USD
+                        
+                    </div class="rightcol">
+                    <div class="leftcol">
+                        64GB SSD<br />2GB DDR <br /> Intel Core i5
+                    </div>
+            </fieldset>
+            </div>
+            <div class="products">
+            <fieldset>
+                <legend>Aple Macbook Air</legend>
+                    <div class="leftcol">
+                        <img src="mcbookair.jpg" height="100" /><br />
+                        1100 USD
+                        
+                    </div class="rightcol">
+                    <div class="leftcol">
+                        64GB SSD<br />2GB DDR <br /> Intel Core i5
+                    </div>
+            </fieldset>
+            </div>
+            <div class="products">
+            <fieldset>
+                <legend>Aple Macbook Air</legend>
+                    <div class="leftcol">
+                        <img src="mcbookair.jpg" height="100" /><br />
+                        1100 USD
+                        
+                    </div class="rightcol">
+                    <div class="leftcol">
+                        64GB SSD<br />2GB DDR <br /> Intel Core i5
+                    </div>
+            </fieldset>
+            </div>
+            <div class="products">
+            <fieldset>
+                <legend>Aple Macbook Air</legend>
+                    <div class="leftcol">
+                        <img src="mcbookair.jpg" height="100" /><br />
+                        1100 USD
+                        
+                    </div class="rightcol">
+                    <div class="leftcol">
+                        64GB SSD<br />2GB DDR <br /> Intel Core i5
+                    </div>
+            </fieldset>
+            </div>
+            <div class="products">
+            <fieldset>
+                <legend>Aple Macbook Air</legend>
+                    <div class="leftcol">
+                        <img src="mcbookair.jpg" height="100" /><br />
+                        1100 USD
+                        
+                    </div class="rightcol">
+                    <div class="leftcol">
+                        64GB SSD<br />2GB DDR <br /> Intel Core i5
+                    </div>
+            </fieldset>
+            </div>
+            <div class="products">
+            <fieldset>
+                <legend>Aple Macbook Air</legend>
+                    <div class="leftcol">
+                        <img src="mcbookair.jpg" height="100" /><br />
+                        1100 USD
+                        
+                    </div class="rightcol">
+                    <div class="leftcol">
+                        64GB SSD<br />2GB DDR <br /> Intel Core i5
+                    </div>
+            </fieldset>
+            </div>
+
+        </section>
+        <section id="options">
+            <label for="minprice">Min price: <span id="spanminprice">500</span>USD </label> <br />
+            <input type="range" id="minprice" min="500" max="2000" value="0" step="100" onchange="spanminprice.innerHTML=document.getElementById('minprice').value"> <br /><br />
+            <label for="maxprice">Max price: <span id="spanmaxprice">1500</span>USD </label> <br />
+            <input type="range" id="maxprice" min="500" max="2000" value="2000" step="100" onchange="spanmaxprice.innerHTML=document.getElementById('maxprice').value"> <br /><br />
+            <label for="minram">Min RAM: <span id="spanminram">4</span>BG </label> <br />
+            <input type="range" id="minram" min="4" max="16" value="4" step="4" onchange="spanminram.innerHTML=document.getElementById('minram').value"> <br /><br />
+            <label for="maxram">Max RAM: <span id="spanmaxram">16</span>GB </label> <br />
+            <input type="range" id="maxram" min="4" max="16" value="16" step="4"  onchange="spanmaxram.innerHTML=document.getElementById('maxram').value"> <br /><br />
+            <label for="minhdd">Min HDD: <span id="spanminhdd">128</span>GB </label> <br />
+            <input type="range" id="minhdd" min="128" max="512" value="128" step="128"  onchange="spanminhdd.innerHTML=document.getElementById('minhdd').value"> <br /><br />
+            <label for="maxhdd">Max HDD: <span id="spanmaxhdd">512</span>GB </label> <br />
+            <input type="range" id="maxhdd"  min="128" max="512" value="512" step="128"  onchange="spanmaxhdd.innerHTML=document.getElementById('maxhdd').value"> <br /><br />
+        </section>
+        <footer>
+            <hr />
+            &copy Copyright Aple Store 2012.
+        </footer> 
+    </form>
+
+</body>
+</html>

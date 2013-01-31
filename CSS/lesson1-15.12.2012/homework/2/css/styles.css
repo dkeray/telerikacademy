@@ -1,0 +1,59 @@
+﻿/* CSS Document */
+
+a 	  { text-decoration: none }
+
+body 
+{ 
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+table
+{
+	border-collapse:collapse;
+}
+
+ td, th
+{ 
+	margin; 0 0 0 0;
+	font-size: 20px;
+	padding: 5px;
+	vertical-align: top;
+	border-width: 1px;
+	border-right-style: solid;
+	border-color: gray;
+	
+	width: 200px;
+}
+ td[title], th[title]
+{ 
+	margin; 0 0 0 0;
+	font-size: 20px;
+	padding: 5px;
+	vertical-align: top;
+	border-width: 0px;
+	border-right-style: solid;
+	border-color: gray;
+	
+	width: 200px;
+}
+
+th, th[title]
+{ 
+	border-width: 1px;
+	border-bottom-style:solid;
+	background-color: #56B906;
+	color: white;
+	text-align: left;
+}
+
+tr.g td
+{ 
+	background-color: #ECECD8;
+}
+
+img
+{
+	height: 25px;
+	padding-right: 10px;
+}
+

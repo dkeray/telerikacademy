@@ -1,0 +1,108 @@
+
+body {
+
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #93acb6;
+}
+nav ul {
+    display: inline-block;
+    margin: 0 0 12px 4px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    cursor: default;
+}
+
+nav ul li {
+    float: left;
+    display: list-item;
+    padding: 10px;
+    margin-left: 1px;
+    background: #4B5F67;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #93acb6;;    
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #1e3741;
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+    background: #1e3741;
+    text-decoration: underline;
+}
+
+nav {
+}
+
+section {
+
+}
+
+#tabs {
+    margin: auto;
+    width: 650px;
+    background: #1e3741;
+    padding-top: 5px;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.vtabs ul {
+    float: left;
+    width: 240px;
+    border: solid 0px red;
+    list-style: none;   
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.vtabs ul li{
+
+    display: list-item;
+    color: #93acb6;    
+    text-decoration: none;
+    border-bottom: solid 1px #3a4f58;
+    display: block;
+}
+
+.vtabs ul li a {
+    padding: 10px;  
+    display: list-item;
+    color: #93acb6;    
+    text-decoration: none;
+        display: list-item;
+}
+
+.vtabs ul li:hover a{
+    background: #00968c;
+    color: white;
+}
+
+
+
+.right {
+    float: left;
+    width: 340px;
+
+    height: 280px;
+    }
+
+.active {
+    background: red;
+}
+
+.clear {
+    clear: both;
+}

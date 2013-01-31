@@ -1,0 +1,100 @@
+body {
+    background: #F1F1F1;
+    font-family: Arial;
+    font-size:14px;
+}
+
+aside#left {
+        margin: auto;
+    float: left;
+    width: 15%;
+}
+
+aside#right {
+        margin: auto;
+    float: right;
+    width: 15%;
+}
+
+section {
+    margin: auto;
+    float: left;
+    display: inline-block;
+    border: solid 2px #808080;
+    border-radius:2px;
+    padding: 5px;
+    width: 68%;
+    background: white;
+}
+
+.box  {
+    width: 100%;
+    margin: 2px;
+    border: solid 2px #808080;
+    border-radius:2px;
+    text-align:center;
+    padding: 0px 0 5px 0;
+    background: white;
+    padding: 5px 0 5px 0;
+}
+
+aside#left ul li {
+    display: block;
+    margin-left: -40px;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a#red {
+    color: red;
+    font-weight: bold;    
+}
+
+a {
+    text-decoration: underline;
+    color: red;
+    margin: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.grayrow {
+    color: white;
+    background-color: #808080;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box .grayrow {
+    margin-top: -5px;
+}
+
+form input {
+    background: white;
+    border: solid 2px #808080; 
+    width: 100px;
+}
+
+p {
+    margin: 10px 0 10px 0;
+}
+
+
+.clear {
+    clear: both;
+}
+
+h3 a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+
+}

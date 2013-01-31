@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial;
+    font-size: 15px;
+}
+ul li {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:10px;
+}
+footer {
+    margin-top: 20px;
+    clear: both;
+    display: block;
+    font-size: 12px;
+}
+.leftcol, rightcol { 
+    display: inline-block;
+    text-align: center;
+}
+section {
+    float: left;
+    padding:5px;
+    margin-bottom: 10px;
+}
+.products {
+    display:inline-block;
+    border: solid 0px red;
+}
+section#products {
+    border: solid 1px;
+    max-width: 521px;
+}
+section#options {
+    padding-left: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+fieldset {
+    width: 230px;
+    height: 130px;
+    padding: 10px;
+    border: solid 1px black;
+}

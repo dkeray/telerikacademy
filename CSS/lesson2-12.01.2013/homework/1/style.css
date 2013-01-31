@@ -1,0 +1,20 @@
+
+@font-face {
+font-family: "edw";
+src: url('EdwardianScriptITC.ttf')
+}
+  
+
+body {
+    font-family: Consolas;
+    color: #0094ff;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-family: edw;
+    font-size: 3em;
+}
