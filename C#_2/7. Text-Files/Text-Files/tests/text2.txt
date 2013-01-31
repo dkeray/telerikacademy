@@ -1,0 +1,15 @@
+3.Write a program that enters file name along with its full file path (e.g. C:\WINDOWS\win.ini), reads its contents and prints it on the console. Find in MSDN how to use System.IO.File.ReadAllText(…). Be sure to catch all possible exceptions and print user-friendly error messages.
+
+Здравейте!
+
+Ето моето решение: http://pastebin.com/zb8jN9UT
+
+Обяснение: 
+
+Чета пътя към файла, който искаме да прочетем и го предавам на метода ReadFile. Опитвам да прочета файла, и ако възникне някое изключение с catch го прихващам. Описах всички изключения, които метода ReadAllText() на класа File може да хвърли, като за 2 от изключенията съм използвал системното съобщение за грешка, тъй като тези изключения са по-общи и могат да бъдат предизвикани от няколко случая. 
+
+Изключенията за метода ReadAllText() можете да намерите тук: http://msdn.microsoft.com/en-us/library/ms143368.aspx
+
+Моля, ако съм изпуснал нещо, да споделите. :)
+
+Екип модератори: Добавих условие на задачата. 

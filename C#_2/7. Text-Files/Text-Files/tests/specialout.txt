@@ -1,0 +1,6 @@
+1 times word: dido
+42 times word: team
+42 times word: go
+42 times word: dog
+42 times word: cat
+42 times word: plane
