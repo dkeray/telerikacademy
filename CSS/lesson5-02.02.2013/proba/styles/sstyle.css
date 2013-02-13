@@ -1,0 +1,11 @@
+body {
+  background: red; }
+  body ul li {
+    display: inline-block;
+    color: black;
+    position: relative;
+    border: solid 1px black; }
+    body ul li a {
+      text-decoration: none;
+      background-color: red; }
+

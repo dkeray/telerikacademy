@@ -1,0 +1,6 @@
+﻿body {
+  background: #ccc;
+}
+body nav ul li {
+  display: inline-block;
+}

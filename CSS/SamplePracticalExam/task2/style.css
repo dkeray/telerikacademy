@@ -1,0 +1,75 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+body div.wrapper {
+  width: 580px;
+  margin: 0 10px;
+}
+body div.wrapper > header {
+  height: 60px;
+  background: #FFA757;
+  border-bottom: 2px dotted #2F7786;
+}
+body div.wrapper > header nav {
+  float: left;
+}
+body div.wrapper > header nav ul {
+  list-style-type: none;
+}
+body div.wrapper > header nav ul li {
+  display: inline-block;
+  background: #2F7786;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 0 0 20px;
+  vertical-align: middle;
+  height: 40px;
+  width: 100px;
+  font-size: 22px;
+}
+body div.wrapper > header h1 {
+  float: left;
+  margin-left: 50px;
+  color: #2F7786;
+}
+body div.wrapper section {
+  background: #EEEEEE;
+  float: left;
+  width: 380px;
+  padding: 10px;
+}
+body div.wrapper section article h2 {
+  background: #FC7B66;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px 20px;
+  color: white;
+}
+body div.wrapper section article > section {
+  letter-spacing: 2px;
+  margin-left: -10px;
+}
+body div.wrapper section article footer {
+  text-align: right;
+  padding-right: 20px;
+}
+body div.wrapper section article footer .date {
+  color: #666;
+  font-size: 11px;
+}
+body div.wrapper aside {
+  float: right;
+}
+body div.wrapper aside div {
+  width: 150px;
+  min-height: 80px;
+  background: #AF7561;
+  border: 2px solid #555;
+  margin: 2px 0;
+  padding: 8px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 0px 2px #ffffff inset, -10px -20px 45px 0 #ffa757 inset;
+  color: white;
+}
